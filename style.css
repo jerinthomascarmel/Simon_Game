@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+.box-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 0px 10px 10px 0px;
+}
+
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.aqua{
+    background-color: aqua;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.white{
+    background-color: white;
+}
+
+
+.userflash{
+    background-color: black;
+}
+
+.alertflash{
+    background-color: red;
+}
